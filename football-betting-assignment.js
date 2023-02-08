@@ -38,7 +38,7 @@ const game = {
  x: 3.25,
  team2: 6.5,
  },
- };
+ }
 
 
  let players1 , players2;
@@ -60,8 +60,7 @@ function printGoals(...playerNames){
 }
 printGoals('Davies', 'Muller', 'Lewandowski' , 'Kimmich');
 
-let result=Math.min(team1,team2);
-console.log(result);
+((team1 > team2 )&& console.log(`Team1 wins`)) || (team2 >team1) && console.log(`Team2 wins`);
  //  console.log(allPlayers);
 
 //  console.log(`gk: ${gkTeam1}, fieldplayers: ${fieldPlayersTeam1}`);
